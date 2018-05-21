@@ -6,7 +6,7 @@
     <title>Shopify - Buy Button Mini Webshop</title>
   </head>
   <body>
-    <div id='collection-component-d098428ce15'>
+    <div id='collection-component-9ed1ca6db48'>
     <h1 class="heading">Buy Button Mini Webshop</h1>
   </div>
   </body>
@@ -34,15 +34,15 @@
 
     function ShopifyBuyInit() {
       var client = ShopifyBuy.buildClient({
-        domain: 'hang-buy-button.myshopify.com',
-        apiKey: 'c8357568ca91ad9094c09a4dbb38d1a5',
+        domain: 'hang-test-shop.myshopify.com',
+        apiKey: 'b191172d3aebed0675c04203f5458372',
         appId: '6',
       });
 
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('collection', {
-          id: 35914481782,
-          node: document.getElementById('collection-component-d098428ce15'),
+          id: 56687919162,
+          node: document.getElementById('collection-component-9ed1ca6db48'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -86,9 +86,9 @@
         "img": false,
         "imgWithCarousel": true,
         "variantTitle": false,
-        "buttonWithQuantity": true,
-        "button": false,
-        "quantity": false
+        "buttonWithQuantity": false,
+        "button": true,
+        "quantity": false,
       },
       "styles": {
         "product": {
