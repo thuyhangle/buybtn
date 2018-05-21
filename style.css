@@ -5,4 +5,6 @@ body {
 .heading {
 	text-align: center;
   margin: 50px 0;
+  font-weight: 400;
+  letter-spacing: .1em;
 }
