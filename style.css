@@ -3,8 +3,11 @@ body {
 }
 
 .heading {
-	text-align: center;
-  margin: 50px 0;
+  background: #7fd69f;
+  text-align: center;
+  margin: 0;
   font-weight: 400;
   letter-spacing: .1em;
+  padding: 50px 0;
+  color: white;
 }
